@@ -108,7 +108,7 @@ public class MainActivity<original, tts> extends AppCompatActivity {
     static final int SELECT_IMAGE = 12;
 
 //    private static final String MODEL_FILE = "file:///android_asset/optimized_model_80_epoch.pb";
-    private static final String MODEL_FILE = "file:///android_asset/merged_23_may.pb";
+    private static final String MODEL_FILE = "file:///android_asset/optimized_InceptionV3_RNN.pb";
     private static final String INPUT1 = "encoder/import/input_1:0";
 //    private static final String INPUT1 = "encoder/import/input:0";
 //   private static final String INPUT1 = "encoder/import/InputImage:0";
@@ -550,7 +550,7 @@ public class MainActivity<original, tts> extends AppCompatActivity {
     TensorFlowInferenceInterface InitSession(){
         InferenceInterface = new TensorFlowInferenceInterface(this.getAssets(), MODEL_FILE);
         OutputNodes = LoadFile(OUTPUT_NODES);
-        WORD_MAP = LoadFile("Idmap_23_may");
+        WORD_MAP = LoadFile("IdmapInceptionV3_RNN");
         Log.d("DEBUG","INIT SESSION");
         return InferenceInterface;
 
