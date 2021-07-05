@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Language">
+
+        <ListPreference
+            android:key="language_select"
+            android:title="Select Language"
+            android:summary="English (Default Language)"
+            android:entries="@array/language_names"
+            android:entryValues="@array/language_values"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="View">
+        <SwitchPreference
+            android:key="background_theme"
+            android:title="Select Background Theme"
+            android:summaryOff="Light"
+            android:summaryOn="Dark"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Voice">
+        <SeekBarPreference
+            android:key="seek_speed"
+            android:title="Voice speed"
+            android:defaultValue="50"
+            android:max="100"
+            app:showSeekBarValue="true"/>
+        <SeekBarPreference
+            android:key="seek_pitch"
+            android:title="Voice pitch"
+            android:defaultValue="50"
+            android:max="100"
+            app:showSeekBarValue="true"
+            app:isPreferenceVisible="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

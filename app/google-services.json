@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "789287674444",
+    "firebase_url": "https://image-captioning-92b3f.firebaseio.com",
+    "project_id": "image-captioning-92b3f",
+    "storage_bucket": "image-captioning-92b3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789287674444:android:7d10c86e297c8f27088ae9",
+        "android_client_info": {
+          "package_name": "com.example.image_captioning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789287674444-c6t0snob8aatn1qqp9sh2n17t7cnl9p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWkL0I72ESv3RoInjEOCsCtzqGEjF6X84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789287674444-c6t0snob8aatn1qqp9sh2n17t7cnl9p0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
