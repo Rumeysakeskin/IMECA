@@ -1,4 +1,4 @@
-# IMECA-
+## IMECA
 Image Caption Generation Mobile App
 
 <img src="images/aa.png" width="300" height="620">
